@@ -61,7 +61,7 @@ def dennis_ritchies_language
      }
 myResult = []
 myResult << programmer_hash[:dennis_ritchie][:languages]     
-return "#myResult"
+return "#{myResult}"
 end
 
 def adding_matz
