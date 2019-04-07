@@ -59,7 +59,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-
+myResult = []
 myResult << programmer_hash[:dennis_ritchie][:languages]     
 myResult.to_s
 end
